@@ -1,1 +1,166 @@
-dfgvfgedtfgetrg
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MTDR Profit Calculator</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  <style>
+    /* Custom Styles */
+    .hero {
+      background: url('hero-bg.jpg') center/cover no-repeat;
+      color: #fff;
+      padding: 100px 0;
+    }
+    .feature-icon {
+      font-size: 3rem;
+      color: #0d6efd;
+    }
+    .download-btn {
+      font-size: 1.25rem;
+    }
+    footer {
+      background: #f8f9fa;
+      padding: 20px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">MTDR Profit Calculator</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link active" href="#features">Features</a></li>
+          <li class="nav-item"><a class="nav-link" href="#screenshots">Screenshots</a></li>
+          <li class="nav-item"><a class="nav-link" href="#download">Download</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero text-center d-flex align-items-center">
+    <div class="container">
+      <h1 class="display-4 fw-bold">MTDR Profit Calculator</h1>
+      <p class="lead mb-4">Accurately estimate your Islamic Mudaraba Term Deposit profits—fast, secure, and Shariah-compliant.</p>
+      <a href="#download" class="btn btn-primary btn-lg download-btn">Download on Google Play</a>
+    </div>
+  </header>
+
+  <!-- Features Section -->
+  <section id="features" class="py-5">
+    <div class="container">
+      <div class="row text-center">
+        <h2 class="mb-5">Key Features</h2>
+        <div class="col-md-4 mb-4">
+          <div class="feature-icon mb-3">⚡</div>
+          <h5>Fast & Accurate</h5>
+          <p>Instant calculations for deposit amount, term, and profit-sharing ratio.</p>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="feature-icon mb-3">📱</div>
+          <h5>Offline & Lightweight</h5>
+          <p>Works without internet. Quick to load on any Android device.</p>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="feature-icon mb-3">🕌</div>
+          <h5>Islamic Finance Compliant</h5>
+          <p>Built on Mudaraba principles—no riba, fully Shariah-aligned.</p>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="feature-icon mb-3">⚙️</div>
+          <h5>Customizable Ratio</h5>
+          <p>Adjust profit-sharing ratios as per your bank’s MTDR offerings.</p>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="feature-icon mb-3">🗓️</div>
+          <h5>Multiple Term Options</h5>
+          <p>Supports monthly, quarterly, semi-annual, and yearly terms.</p>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="feature-icon mb-3">🔒</div>
+          <h5>Secure & Private</h5>
+          <p>No login required. We don’t collect or store your data.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Screenshots Section -->
+  <section id="screenshots" class="py-5 bg-light">
+    <div class="container text-center">
+      <h2 class="mb-5">App Screenshots</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-4 mb-4">
+          <img src="screenshot1.jpg" class="img-fluid rounded shadow" alt="Screenshot 1">
+        </div>
+        <div class="col-md-4 mb-4">
+          <img src="screenshot2.jpg" class="img-fluid rounded shadow" alt="Screenshot 2">
+        </div>
+        <div class="col-md-4 mb-4">
+          <img src="screenshot3.jpg" class="img-fluid rounded shadow" alt="Screenshot 3">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Download Section -->
+  <section id="download" class="py-5">
+    <div class="container text-center">
+      <h2 class="mb-4">Get the App</h2>
+      <p class="mb-4">Download now from the Google Play Store and start calculating your MTDR profits instantly.</p>
+      <a href="https://play.google.com/store/apps/details?id=com.mtdr.profitcalculator"
+         class="btn btn-success btn-lg">
+        Google Play Download
+      </a>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">Contact Us</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="you@example.com" required>
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" rows="4" placeholder="Your message here..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary px-5">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center">
+    <div class="container">
+      <p class="mb-1">&copy; 2025 MTDR Profit Calculator</p>
+      <p class="small">All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.5.0/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-YYYYY" crossorigin="anonymous"></script>
+</body>
+</html>
